@@ -2,11 +2,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+img {
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
 :root {
   font-family: "Protest Riot", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -21,4 +29,9 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.text-outline {
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7),
+    -2px -2px 4px rgba(255, 255, 255, 0.7);
 }
