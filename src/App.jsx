@@ -69,42 +69,42 @@ export default function Page() {
             </div>
           </div>
           <img
-            className="fixed right-[15vw] opacity-80 h-[200px] rounded-lg animate-rotate"
+            className="fixed right-[15vw] opacity-80 h-[30vw] max-h-[200px] rounded-lg animate-rotate"
             src={mountain}
             alt=""
           />
           <img
-            className="fixed left-[15vw] opacity-80 h-[200px] rounded-lg animate-rotate"
+            className="fixed left-[15vw] opacity-80 h-[30vw] max-h-[200px] rounded-lg animate-rotate"
             src={halloween}
             alt=""
           />
           <img
-            className="fixed top-[70vh] left-[10vw] opacity-80 h-[200px] rounded-lg animate-rotate"
+            className="fixed top-[70vh] left-[10vw] opacity-80 h-[30vw] max-h-[200px] rounded-lg animate-rotate"
             src={duomo}
             alt=""
           />
           <img
-            className="fixed top-[60vh] right-[10vw] opacity-80 h-[200px] rounded-lg animate-rotate"
+            className="fixed top-[60vh] right-[10vw] opacity-80 h-[30vw] max-h-[200px] rounded-lg animate-rotate"
             src={hug}
             alt=""
           />
           <img
-            className="fixed top-[10vh] right-[50vw] opacity-70 h-[200px] rounded-lg animate-rotate"
+            className="fixed top-[10vh] right-[50vw] opacity-70 h-[30vw] max-h-[200px] rounded-lg animate-rotate"
             src={desert}
             alt=""
           />
           <img
-            className="fixed top-[80vh] right-[40vw] opacity-80 h-[200px] rounded-lg animate-rotate"
+            className="fixed top-[80vh] right-[40vw] opacity-80 h-[30vw] max-h-[200px] rounded-lg animate-rotate"
             src={paris}
             alt=""
           />
           <img
-            className="fixed top-[0vh] right-[0vw] opacity-80 h-[200px] rounded-lg animate-rotate"
+            className="fixed top-[0vh] right-[0vw] opacity-80 h-[30vw] max-h-[200px] rounded-lg animate-rotate"
             src={tree}
             alt=""
           />
           <img
-            className="fixed top-[0vh] left-[0vw] opacity-80 h-[200px] rounded-lg animate-rotate"
+            className="fixed top-[0vh] left-[0vw] opacity-80 h-[30vw] max-h-[200px] rounded-lg animate-rotate"
             src={como}
             alt=""
           />
